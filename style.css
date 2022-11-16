@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    color: #fff;
+    font-family: 'Aboreto', cursive;
+}
+
+.container {
+    background-image: url("background-image.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-container {
+    box-shadow: 0 0 15px 0 var(--color);
+    width: 80%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: #000;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+
+  .first-form, .second-form {
+    border: .1px solid #fff;
+    box-shadow: 0 0 35px #1e9bff;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+
+  input, select {
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+  }
+
+  input:hover, select:hover {
+    box-shadow: 0 0 35px #1e9bff;
+  }
+  input[type=checkbox]{
+    width: 20px;
+  }
+  input[type=checkbox]:hover {
+    box-shadow: 0 0 35px #1e9bff;
+  }
+
+  input[type=textarea] {
+    height: 2.5em;
+  }
+
+  input[type=submit] {
+    margin-top: 10px;
+    width: 30%;
+  }
